@@ -24,7 +24,7 @@ const Header = () => {
 
       <Nav>
         <a href="#" onClick={() => setCheck(false)}>
-          Trabalhos{" "}
+          Trabalhos
         </a>
         <a href="#" onClick={() => setCheck(false)}>
           Sobre
@@ -36,7 +36,7 @@ const Header = () => {
           />
         </a>
         <a href="#" onClick={() => setCheck(false)}>
-          Links
+          Skills
         </a>
         <a href="#" onClick={() => setCheck(false)}>
           Contato
