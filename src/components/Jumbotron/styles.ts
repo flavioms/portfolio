@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  margin: 10vh auto;
+  margin: 5vh auto;
   font-size: 200%;
   text-align: center;
 
@@ -37,7 +37,7 @@ export const Container = styled.section`
       bottom: 0;
       margin: auto;
       z-index: -1;
-      width: 20%;
+      width: 15%;
       height: 1px;
       background: ${(props) => props.theme.colors.grayLight};
     }
@@ -50,7 +50,7 @@ export const Container = styled.section`
       bottom: 0;
       margin: auto;
       z-index: -1;
-      width: 20%;
+      width: 15%;
       height: 1px;
       background: ${(props) => props.theme.colors.grayLight};
     }
