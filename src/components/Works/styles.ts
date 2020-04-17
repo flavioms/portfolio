@@ -8,6 +8,7 @@ export const Container = styled.section`
   position: relative;
   width: 100%;
   box-sizing: content-box;
+  overflow: hidden;
   margin: 10vh auto;
 `;
 
