@@ -1,43 +1,21 @@
 import React from "react";
+import { differenceInYears } from "date-fns";
 
 import { Container, Title, Wrapper, Card, CardTitle, CardBody } from "./styles";
 
 const About = () => {
+  const age = differenceInYears(new Date(), new Date("1994-01-26"));
   return (
     <Container>
       <Title>Sobre</Title>
       <Wrapper>
         <Card>
-          <CardTitle>Lorem ipsum</CardTitle>
+          <CardTitle>Olá, Meu nome é Flávio</CardTitle>
           <CardBody>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            quis rutrum ligula, eu luctus nisl. Aliquam augue sem, vehicula vel
-            felis at, condimentum fermentum dui.
-          </CardBody>
-        </Card>
-        <Card>
-          <CardTitle>Lorem ipsum</CardTitle>
-          <CardBody>
-            Donec porttitor non sapien vitae finibus. Pellentesque ipsum orci,
-            scelerisque malesuada pretium nec, tristique a orci. Mauris
-            vestibulum massa ac metus pellentesque, eget malesuada ligula
-            commodo.
-          </CardBody>
-        </Card>
-        <Card>
-          <CardTitle>Lorem ipsum</CardTitle>
-          <CardBody>
-            Donec sodales, turpis id lacinia iaculis, magna felis commodo neque,
-            et condimentum tellus risus sed tortor. Integer rutrum odio vitae
-            mauris viverra imperdiet.
-          </CardBody>
-        </Card>
-        <Card>
-          <CardTitle>Lorem ipsum</CardTitle>
-          <CardBody>
-            Praesent diam turpis, lacinia ac aliquet a, porttitor at erat. Etiam
-            egestas ac libero vitae commodo. Phasellus turpis urna, vehicula id
-            dolor id, sodales ornare erat.{" "}
+            Tenho {age} anos, moro no interior do Rio de Janeiro e estou
+            iniciando na área de desenvolvimento web, mas tenho certeza de que
+            com foco, a capacitação e a motivação que possuo logo estarei
+            conquistando meus objetivos profissionais e pessoais.
           </CardBody>
         </Card>
       </Wrapper>

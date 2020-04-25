@@ -28,15 +28,17 @@ export const Wrapper = styled.div`
   margin-bottom: 2em;
 `;
 export const Card = styled.div`
-  width: calc(90% / 2);
+  width: 100%;
 `;
 export const CardTitle = styled.h2`
   margin: 1em 0;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.07;
+
+  }
 `;
 export const CardBody = styled.p`
   text-align: left;
