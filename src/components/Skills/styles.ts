@@ -27,7 +27,7 @@ export const Wrapper = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   width: 100%;
   margin: 2em 0;
 `;
@@ -66,7 +66,7 @@ export const IconJs = styled(FaJs)`
 `;
 
 export const IconTs = styled.img`
-  width: 4em;
+  width: 3.6em;
 `;
 
 export const IconCss = styled(FaCss3Alt)`
