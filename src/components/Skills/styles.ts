@@ -32,6 +32,24 @@ export const Wrapper = styled.div`
   margin: 2em 0;
 `;
 
+export const Skill = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  min-width: 8em;
+  flex: 1;
+
+  & > p {
+    margin: 1em 0;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+`;
+
 export const IconReact = styled(FaReact)`
   color: #5cd3f3;
   font-size: 4em;
@@ -45,6 +63,10 @@ export const IconNode = styled(FaNodeJs)`
 export const IconJs = styled(FaJs)`
   color: #efd81d;
   font-size: 4em;
+`;
+
+export const IconTs = styled.img`
+  width: 4em;
 `;
 
 export const IconCss = styled(FaCss3Alt)`

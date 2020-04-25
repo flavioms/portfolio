@@ -37,10 +37,11 @@ export const CardTitle = styled.h2`
   font-stretch: normal;
   font-style: normal;
   line-height: 1.07;
+  text-align: center;
   }
 `;
 export const CardBody = styled.p`
-  text-align: left;
+  text-align: center;
   font-size: 16px;
   font-weight: 600;
   font-stretch: normal;
