@@ -8,6 +8,7 @@ export const Container = styled.section`
   position: relative;
   width: 100%;
   box-sizing: content-box;
+
   margin: 10vh auto;
 `;
 
@@ -29,14 +30,14 @@ export const Wrapper = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
 `;
 
 export const Card = styled.div`
   position: relative;
   cursor: pointer;
-  width: 300px;
-  min-height: 300px;
+  width: 280px;
+  height: 280px;
   margin: 2em;
 
   .front,
