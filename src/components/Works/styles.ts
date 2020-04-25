@@ -36,8 +36,8 @@ export const Wrapper = styled.div`
 export const Card = styled.div`
   position: relative;
   cursor: pointer;
-  width: 280px;
-  height: 280px;
+  width: 250px;
+  height: 250px;
   margin: 2em;
 
   .front,
