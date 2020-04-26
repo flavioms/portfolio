@@ -81,7 +81,7 @@ export const Nav = styled.nav`
 `;
 
 export const Avatar = styled.img`
-  width: 52px;
-  height: 52px;
-  border-radius: 25px;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
 `;

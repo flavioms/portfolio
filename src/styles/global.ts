@@ -11,6 +11,10 @@ export default createGlobalStyle`
   *:focus {
     outline: 0;
   }
+  html {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
   html, body, #root {
     height: 100%;
   }

@@ -5,7 +5,7 @@ import { Container, Title, Wrapper, Card } from "./styles";
 const Works = () => {
   return (
     <Container>
-      <Title>Trabalhos</Title>
+      <Title id="works">Trabalhos</Title>
       <Wrapper>
         <Card>
           <div className="front">

@@ -20,7 +20,7 @@ import {
 const Skills = () => {
   return (
     <Container>
-      <Title>Skills</Title>
+      <Title id="skills">Skills</Title>
 
       <Wrapper>
         <Skill>

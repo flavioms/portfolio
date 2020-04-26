@@ -7,7 +7,7 @@ const About = () => {
   const age = differenceInYears(new Date(), new Date("1994-01-26"));
   return (
     <Container>
-      <Title>Sobre</Title>
+      <Title id="about">Sobre</Title>
       <Wrapper>
         <Card>
           <CardTitle>Olá, Meu nome é Flávio</CardTitle>
