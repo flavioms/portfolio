@@ -1,6 +1,8 @@
 import React from "react";
-
 import { Container, Title, Wrapper, Card } from "./styles";
+import bairroProject from "../../assets/bairro.gif";
+import neumorphismProject from "../../assets/neumorphism.gif";
+import spotifyProject from "../../assets/spotify.gif";
 
 const Works = () => {
   return (
@@ -9,44 +11,61 @@ const Works = () => {
       <Wrapper>
         <Card>
           <div className="front">
-            <img
-              src="https://i.pinimg.com/564x/49/4f/65/494f65b499a8a696e740f50ac7663e17.jpg"
-              alt=""
-            />
+            <img src={bairroProject} alt="" />
           </div>
           <div className="back">
-            <div className="back-content">
-              <h2>Projeto</h2>
-              <span>Descrição do projeto</span>
-            </div>
+            <a
+              className="back-content"
+              href="https://www.bairroemfocoapp.com.br/"
+              target="_blank"
+            >
+              <h2>Bairro em Foco</h2>
+              <span>
+                Participação no projeto feito com React e cujo a finalidade é
+                divulgar comerciantes locais de serviços/produtos essênciais no
+                período de quarentena do covid19.
+              </span>
+            </a>
           </div>
         </Card>
         <Card>
           <div className="front">
-            <img
-              src="https://i.pinimg.com/564x/cc/28/a8/cc28a8887519a8d3bd5f4857c0e5c318.jpg"
-              alt=""
-            />
+            <img src={neumorphismProject} alt="" />
           </div>
           <div className="back">
-            <div className="back-content">
-              <h2>Projeto</h2>
-              <span>Descrição do projeto</span>
-            </div>
+            <a
+              className="back-content"
+              href="https://github.com/flavioms/neumorphism-example"
+              target="_blank"
+            >
+              <h2>UX Neumorphism</h2>
+              <span>
+                A página foi feita com o objetivo de testar a nova tendência de
+                layout. Também foi aplicado a técnica de dark mode, salvando a
+                escolha do usuario no localstorage através de um hook
+                customizado.
+              </span>
+            </a>
           </div>
         </Card>
         <Card>
           <div className="front">
-            <img
-              src="https://i.pinimg.com/564x/7d/9b/42/7d9b42b086e6483a2c99bcff35385fe6.jpg"
-              alt=""
-            />
+            <img src={spotifyProject} alt="" />
           </div>
           <div className="back">
-            <div className="back-content">
-              <h2>Projeto</h2>
-              <span>TEste de projeto</span>
-            </div>
+            <a
+              className="back-content"
+              href="https://github.com/flavioms/Player-Spotify"
+              target="_blank"
+            >
+              <h2>Player Spotify</h2>
+              <span>
+                Aplicativo feito com React para buscar e reproduzir músicas
+                utilizando a API do spotify mas com uma interface mais objetiva.
+                Todos os componentes incluindo os de controle foram criados
+                manualmente.
+              </span>
+            </a>
           </div>
         </Card>
       </Wrapper>

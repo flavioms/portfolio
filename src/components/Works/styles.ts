@@ -36,9 +36,9 @@ export const Wrapper = styled.div`
 export const Card = styled.div`
   position: relative;
   cursor: pointer;
-  width: 250px;
-  height: 250px;
-  margin: 2em;
+  width: 280px;
+  height: 157px;
+  margin: 1em;
 
   .front,
   .back {
@@ -58,7 +58,7 @@ export const Card = styled.div`
       position: relative;
       height: 100%;
       width: 100%;
-      object-fit: cover;
+      object-fit: contain;
     }
 
     &::after {
@@ -83,6 +83,8 @@ export const Card = styled.div`
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    font-size: 0.8em;
+    color: ${(props) => props.theme.colors.grayDark};
 
     & > h2 {
       color: ${(props) => props.theme.colors.blue};
