@@ -23,10 +23,10 @@ const Header = () => {
       />
 
       <Nav>
-        <a href="#works" onClick={() => setCheck(false)}>
+        <a href="#" onClick={() => setCheck(false)}>
           Trabalhos
         </a>
-        <a href="#about" onClick={() => setCheck(false)}>
+        <a href="#" onClick={() => setCheck(false)}>
           Sobre
         </a>
         <a>
@@ -35,10 +35,10 @@ const Header = () => {
             alt=""
           />
         </a>
-        <a href="#skills" onClick={() => setCheck(false)}>
+        <a href="#" onClick={() => setCheck(false)}>
           Skills
         </a>
-        <a href="#contact" onClick={() => setCheck(false)}>
+        <a href="#" onClick={() => setCheck(false)}>
           Contato
         </a>
       </Nav>

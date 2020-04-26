@@ -58,7 +58,7 @@ const Contact = () => {
 
   return (
     <Container>
-      <Title id="contact">Entre em contato</Title>
+      <Title>Entre em contato</Title>
       <Formik
         onSubmit={handleSubmit}
         validationSchema={schemaContact}

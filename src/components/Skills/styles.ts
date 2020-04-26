@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { FaReact, FaNodeJs, FaJs, FaCss3Alt, FaHtml5 } from "react-icons/fa";
-import { DiMongodb, DiRedis, DiMsqlServer, DiMysql } from "react-icons/di";
 
 export const Container = styled.div`
   display: flex;
@@ -27,7 +26,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: baseline;
   width: 100%;
   margin: 2em 0;
@@ -36,12 +35,12 @@ export const Wrapper = styled.div`
 export const Skill = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
-  width: 100%;
-  max-width: 8rem;
-  margin: 2em;
+  height: 100%;
+  min-width: 8em;
+  flex: 1;
 
   & > p {
     margin: 1em 0;
@@ -77,22 +76,5 @@ export const IconCss = styled(FaCss3Alt)`
 
 export const IconHtml = styled(FaHtml5)`
   color: #dd4b25;
-  font-size: 4em;
-`;
-
-export const IconMongodb = styled(DiMongodb)`
-  color: #589135;
-  font-size: 4em;
-`;
-export const IconRedis = styled(DiRedis)`
-  color: #d12e26;
-  font-size: 4em;
-`;
-export const IconMsqlServer = styled(DiMsqlServer)`
-  color: #8c98a5;
-  font-size: 4em;
-`;
-export const IconMysql = styled(DiMysql)`
-  color: #1d4a65;
   font-size: 4em;
 `;

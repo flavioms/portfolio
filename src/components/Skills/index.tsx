@@ -11,16 +11,12 @@ import {
   IconJs,
   IconNode,
   IconTs,
-  IconMongodb,
-  IconMsqlServer,
-  IconMysql,
-  IconRedis,
 } from "./styles";
 
 const Skills = () => {
   return (
     <Container>
-      <Title id="skills">Skills</Title>
+      <Title>Skills</Title>
 
       <Wrapper>
         <Skill>
@@ -46,22 +42,6 @@ const Skills = () => {
         <Skill>
           <IconCss />
           <p>CSS3</p>
-        </Skill>
-        <Skill>
-          <IconMsqlServer />
-          <p>MSSQL</p>
-        </Skill>
-        <Skill>
-          <IconMysql />
-          <p>MySQL</p>
-        </Skill>
-        <Skill>
-          <IconMongodb />
-          <p>MongoDB</p>
-        </Skill>
-        <Skill>
-          <IconRedis />
-          <p>Redis</p>
         </Skill>
       </Wrapper>
     </Container>
