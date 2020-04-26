@@ -4,6 +4,7 @@ import Jumbotron from "../../components/Jumbotron";
 import Works from "../../components/Works";
 import About from "../../components/About";
 import Skills from "../../components/Skills";
+import Contact from "../../components/Contact";
 
 import { Container } from "./styles";
 
@@ -14,6 +15,7 @@ const Home = () => (
     <Works />
     <About />
     <Skills />
+    <Contact />
   </Container>
 );
 
