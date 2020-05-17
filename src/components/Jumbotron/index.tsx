@@ -22,7 +22,7 @@ const Home = () => {
         </a>
       </nav>
 
-      <p>Flávio Martins - Web Developer</p>
+      <p>Flávio Martins - Full Stack Developer</p>
     </Container>
   );
 };
